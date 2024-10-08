@@ -17,7 +17,7 @@
  */
 
 
-package billsreporting;
+package org.example;
 
 
 import javax.swing.*;

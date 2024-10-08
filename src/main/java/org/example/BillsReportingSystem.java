@@ -2,9 +2,9 @@
  * --------------------------------------------------------
  * Class: Bills Reporting System
  *
- * @author Mark O'Reilly
+ * @author Leanne J Dong
  * 
- * Developed: 2016-2017
+ * Developed: 2024
  *
  * Purpose: Sample Java application for displaying the hypothetical class
  *                 test results for the students of Bill's Geography class.
@@ -23,7 +23,7 @@
  */
 
 
-package billsreporting;
+package org.example;
 
 
 import javax.swing.*;
@@ -42,9 +42,10 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.RandomAccessFile;
 import java.util.Arrays;
+import java.util.Scanner;
 
 
-public class BillsReporting extends JFrame implements ActionListener, KeyListener
+public class BillsReportingSystem extends JFrame implements ActionListener, KeyListener
 {
     private int totalX = 12;
     private int totalY = 23;
@@ -68,7 +69,7 @@ public class BillsReporting extends JFrame implements ActionListener, KeyListene
     
     public static void main(String[] args)
     {
-        BillsReporting billsReportingSystem = new BillsReporting();
+        BillsReportingSystem billsReportingSystem = new BillsReportingSystem();
         billsReportingSystem.run();
     }
     
